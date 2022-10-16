@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtKetQua = new System.Windows.Forms.TextBox();
             this.btKetQua = new System.Windows.Forms.Button();
+            this.btTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -94,7 +95,7 @@
             // btKetQua
             // 
             this.btKetQua.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btKetQua.Location = new System.Drawing.Point(183, 263);
+            this.btKetQua.Location = new System.Drawing.Point(129, 262);
             this.btKetQua.Name = "btKetQua";
             this.btKetQua.Size = new System.Drawing.Size(75, 42);
             this.btKetQua.TabIndex = 2;
@@ -102,11 +103,23 @@
             this.btKetQua.UseVisualStyleBackColor = true;
             this.btKetQua.Click += new System.EventHandler(this.btKetQua_Click);
             // 
+            // btTru
+            // 
+            this.btTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btTru.Location = new System.Drawing.Point(261, 262);
+            this.btTru.Name = "btTru";
+            this.btTru.Size = new System.Drawing.Size(75, 42);
+            this.btTru.TabIndex = 2;
+            this.btTru.Text = "-";
+            this.btTru.UseVisualStyleBackColor = true;
+            this.btTru.Click += new System.EventHandler(this.btTru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(752, 488);
+            this.Controls.Add(this.btTru);
             this.Controls.Add(this.btKetQua);
             this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.label3);
@@ -130,6 +143,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtKetQua;
         private System.Windows.Forms.Button btKetQua;
+        private System.Windows.Forms.Button btTru;
     }
 }
 
