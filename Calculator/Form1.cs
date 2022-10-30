@@ -48,5 +48,13 @@ namespace Calculator
             Calculation cal = new Calculation(a, b);
             txtKetQua.Text = cal.Execute("/").ToString();
         }
+
+        private void btSoSanh_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
+            Calculation cal = new Calculation(a, b);
+            txtKetQua.Text = cal.SoSanh(a, b).ToString();
+        }
     }
 }

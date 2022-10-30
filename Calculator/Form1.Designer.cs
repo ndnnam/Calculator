@@ -40,6 +40,7 @@
             this.btChia = new System.Windows.Forms.Button();
             this.btNhan = new System.Windows.Forms.Button();
             this.btTru = new System.Windows.Forms.Button();
+            this.btSoSanh = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             this.txtA.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtA.Location = new System.Drawing.Point(122, 68);
             this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(295, 38);
+            this.txtA.Size = new System.Drawing.Size(434, 38);
             this.txtA.TabIndex = 1;
             // 
             // label2
@@ -76,7 +77,7 @@
             this.txtB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtB.Location = new System.Drawing.Point(122, 112);
             this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(295, 38);
+            this.txtB.Size = new System.Drawing.Size(434, 38);
             this.txtB.TabIndex = 1;
             // 
             // label3
@@ -94,7 +95,7 @@
             this.txtKetQua.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtKetQua.Location = new System.Drawing.Point(122, 156);
             this.txtKetQua.Name = "txtKetQua";
-            this.txtKetQua.Size = new System.Drawing.Size(295, 38);
+            this.txtKetQua.Size = new System.Drawing.Size(434, 38);
             this.txtKetQua.TabIndex = 1;
             // 
             // btCong
@@ -123,6 +124,7 @@
             // 
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtA);
+            this.groupBox1.Controls.Add(this.btSoSanh);
             this.groupBox1.Controls.Add(this.btChia);
             this.groupBox1.Controls.Add(this.btNhan);
             this.groupBox1.Controls.Add(this.btTru);
@@ -132,9 +134,9 @@
             this.groupBox1.Controls.Add(this.txtB);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(155, 92);
+            this.groupBox1.Location = new System.Drawing.Point(89, 103);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(423, 269);
+            this.groupBox1.Size = new System.Drawing.Size(563, 269);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tính toán đơn giãn";
@@ -172,6 +174,17 @@
             this.btTru.UseVisualStyleBackColor = true;
             this.btTru.Click += new System.EventHandler(this.btTru_Click);
             // 
+            // btSoSanh
+            // 
+            this.btSoSanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSoSanh.Location = new System.Drawing.Point(423, 221);
+            this.btSoSanh.Name = "btSoSanh";
+            this.btSoSanh.Size = new System.Drawing.Size(133, 42);
+            this.btSoSanh.TabIndex = 2;
+            this.btSoSanh.Text = "So Sánh";
+            this.btSoSanh.UseVisualStyleBackColor = true;
+            this.btSoSanh.Click += new System.EventHandler(this.btSoSanh_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,6 +215,7 @@
         private System.Windows.Forms.Button btChia;
         private System.Windows.Forms.Button btNhan;
         private System.Windows.Forms.Button btTru;
+        private System.Windows.Forms.Button btSoSanh;
     }
 }
 
